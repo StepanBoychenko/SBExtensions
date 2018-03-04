@@ -10,6 +10,20 @@
 		844E2684204BF08D004D0B5F /* SBExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E267A204BF08D004D0B5F /* SBExtensions.framework */; };
 		844E2689204BF08D004D0B5F /* SBExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E2688204BF08D004D0B5F /* SBExtensionsTests.swift */; };
 		844E268B204BF08D004D0B5F /* SBExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E267D204BF08D004D0B5F /* SBExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84830002204C058200DAEC72 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830001204C058200DAEC72 /* Colors.swift */; };
+		84830004204C079000DAEC72 /* KDGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830003204C079000DAEC72 /* KDGradientView.swift */; };
+		84830006204C08EC00DAEC72 /* SBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830005204C08EC00DAEC72 /* SBView.swift */; };
+		84830008204C095C00DAEC72 /* CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830007204C095C00DAEC72 /* CellRegistration.swift */; };
+		8483000B204C098A00DAEC72 /* SBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483000A204C098A00DAEC72 /* SBViewController.swift */; };
+		8483000E204C1D8D00DAEC72 /* Notifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483000D204C1D8D00DAEC72 /* Notifiable.swift */; };
+		84830010204C1DFA00DAEC72 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483000F204C1DFA00DAEC72 /* Notify.swift */; };
+		84830012204C22BC00DAEC72 /* SBNotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830011204C22BC00DAEC72 /* SBNotifyView.swift */; };
+		84830014204C238900DAEC72 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830013204C238900DAEC72 /* UIViewController.swift */; };
+		84830016204C2AAC00DAEC72 /* SBNotifiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830015204C2AAC00DAEC72 /* SBNotifiConfig.swift */; };
+		84830018204C333B00DAEC72 /* String+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830017204C333B00DAEC72 /* String+Calculations.swift */; };
+		8483FFFA204BF38200DAEC72 /* UITableViewCell+Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483FFF9204BF38200DAEC72 /* UITableViewCell+Dividers.swift */; };
+		8483FFFD204BFBD900DAEC72 /* SBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483FFFC204BFBD900DAEC72 /* SBTableViewCell.swift */; };
+		8483FFFF204C04D500DAEC72 /* SBTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483FFFE204C04D500DAEC72 /* SBTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		844E2683204BF08D004D0B5F /* SBExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E2688204BF08D004D0B5F /* SBExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBExtensionsTests.swift; sourceTree = "<group>"; };
 		844E268A204BF08D004D0B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84830001204C058200DAEC72 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		84830003204C079000DAEC72 /* KDGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDGradientView.swift; sourceTree = "<group>"; };
+		84830005204C08EC00DAEC72 /* SBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBView.swift; sourceTree = "<group>"; };
+		84830007204C095C00DAEC72 /* CellRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegistration.swift; sourceTree = "<group>"; };
+		8483000A204C098A00DAEC72 /* SBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBViewController.swift; sourceTree = "<group>"; };
+		8483000D204C1D8D00DAEC72 /* Notifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifiable.swift; sourceTree = "<group>"; };
+		8483000F204C1DFA00DAEC72 /* Notify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
+		84830011204C22BC00DAEC72 /* SBNotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBNotifyView.swift; sourceTree = "<group>"; };
+		84830013204C238900DAEC72 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		84830015204C2AAC00DAEC72 /* SBNotifiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBNotifiConfig.swift; sourceTree = "<group>"; };
+		84830017204C333B00DAEC72 /* String+Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Calculations.swift"; sourceTree = "<group>"; };
+		8483FFF9204BF38200DAEC72 /* UITableViewCell+Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Dividers.swift"; sourceTree = "<group>"; };
+		8483FFFC204BFBD900DAEC72 /* SBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTableViewCell.swift; sourceTree = "<group>"; };
+		8483FFFE204C04D500DAEC72 /* SBTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,8 @@
 		844E267C204BF08D004D0B5F /* SBExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				8483FFF5204BF26C00DAEC72 /* UI */,
+				8483FFF8204BF29200DAEC72 /* Logic */,
 				844E267D204BF08D004D0B5F /* SBExtensions.h */,
 				844E267E204BF08D004D0B5F /* Info.plist */,
 			);
@@ -84,6 +114,82 @@
 				844E268A204BF08D004D0B5F /* Info.plist */,
 			);
 			path = SBExtensionsTests;
+			sourceTree = "<group>";
+		};
+		84830000204C057800DAEC72 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				84830001204C058200DAEC72 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		84830009204C097900DAEC72 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8483000A204C098A00DAEC72 /* SBViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8483000C204C1D7500DAEC72 /* Notifies */ = {
+			isa = PBXGroup;
+			children = (
+				8483000D204C1D8D00DAEC72 /* Notifiable.swift */,
+				8483000F204C1DFA00DAEC72 /* Notify.swift */,
+				84830011204C22BC00DAEC72 /* SBNotifyView.swift */,
+				84830015204C2AAC00DAEC72 /* SBNotifiConfig.swift */,
+			);
+			path = Notifies;
+			sourceTree = "<group>";
+		};
+		8483FFF5204BF26C00DAEC72 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8483000C204C1D7500DAEC72 /* Notifies */,
+				84830000204C057800DAEC72 /* Colors */,
+				8483FFF7204BF28000DAEC72 /* Controllers */,
+				8483FFF6204BF27800DAEC72 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8483FFF6204BF27800DAEC72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8483FFFB204BFBCB00DAEC72 /* Base */,
+				8483FFF9204BF38200DAEC72 /* UITableViewCell+Dividers.swift */,
+				84830013204C238900DAEC72 /* UIViewController.swift */,
+				84830007204C095C00DAEC72 /* CellRegistration.swift */,
+				84830003204C079000DAEC72 /* KDGradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8483FFF7204BF28000DAEC72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84830009204C097900DAEC72 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8483FFF8204BF29200DAEC72 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				84830017204C333B00DAEC72 /* String+Calculations.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8483FFFB204BFBCB00DAEC72 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8483FFFE204C04D500DAEC72 /* SBTableView.swift */,
+				8483FFFC204BFBD900DAEC72 /* SBTableViewCell.swift */,
+				84830005204C08EC00DAEC72 /* SBView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +254,7 @@
 				TargetAttributes = {
 					844E2679204BF08D004D0B5F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					844E2682204BF08D004D0B5F = {
@@ -196,6 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84830006204C08EC00DAEC72 /* SBView.swift in Sources */,
+				8483FFFD204BFBD900DAEC72 /* SBTableViewCell.swift in Sources */,
+				84830014204C238900DAEC72 /* UIViewController.swift in Sources */,
+				84830002204C058200DAEC72 /* Colors.swift in Sources */,
+				84830018204C333B00DAEC72 /* String+Calculations.swift in Sources */,
+				84830010204C1DFA00DAEC72 /* Notify.swift in Sources */,
+				84830004204C079000DAEC72 /* KDGradientView.swift in Sources */,
+				8483000E204C1D8D00DAEC72 /* Notifiable.swift in Sources */,
+				8483FFFA204BF38200DAEC72 /* UITableViewCell+Dividers.swift in Sources */,
+				84830012204C22BC00DAEC72 /* SBNotifyView.swift in Sources */,
+				8483000B204C098A00DAEC72 /* SBViewController.swift in Sources */,
+				8483FFFF204C04D500DAEC72 /* SBTableView.swift in Sources */,
+				84830016204C2AAC00DAEC72 /* SBNotifiConfig.swift in Sources */,
+				84830008204C095C00DAEC72 /* CellRegistration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +455,7 @@
 		844E268F204BF08D004D0B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = no.SBExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +477,7 @@
 		844E2690204BF08D004D0B5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +498,7 @@
 		844E2692204BF08D004D0B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +512,7 @@
 		844E2693204BF08D004D0B5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SBExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
